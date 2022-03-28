@@ -33,7 +33,7 @@ public class Card_b {
     }
 
     public String getSuit() {
-        if (suit < 0 || suit > 3) Integer.toString(suit);
+        if (suit < 0 || suit > 3) return Integer.toString(suit);
         return CARD_SUIT[suit];
     }
 
